@@ -1,0 +1,5 @@
+In cadrul transformarii elementele de complexitate maxima au fost:
+reprezentarea ca formula a tuturor perechilor de muchii a fiecarui nod/ verificarea daca fiacre nod are cel putin 2 muchii altfel nu poate exista un ciclu ceea ce a necesitat 1 for pentru fiecare nod si 2 pentru ficare muchie adica complexitate O(n^3)
+si reprezentarea distantei minime pentru ficare nod care a insemnat  un for pentru ficare nod ,un for pentru ficare muchie a fiecarui nod si un for pentr fiecare distanta posibila de la 1 la n/2+1 deci tot complexitate O(n^3).
+Initializarea grafului si citirea muchiilor au complexitatea O(n^2) iar afisarea tutror muchiior/ verificarea daca graful este neorientat este tot O(n^2).
+Deci complexitatea transformarii este polinomiala (O(n^3)).
